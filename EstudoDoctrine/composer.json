@@ -1,0 +1,19 @@
+{
+"name": "doctrine estudo",
+"description": "Projeto que busca os cursos no site da Alura",
+"type": "library",
+"authors": [
+    {
+        "name": "Vinicius Dias",
+        "email": "carlosv775@gmail.com"
+    }
+],
+        "require": {
+                "doctrine/orm": "^2.7"
+        },
+        "autoload": {
+            "psr-4": {
+                "Alura\\Doctrine\\": "src/"
+            }
+        }
+}
